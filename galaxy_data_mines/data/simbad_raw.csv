@@ -1,9 +1,9 @@
 id,long_name,tag
 "01.00.00.00",Radio,Rad
-"01.02.00.00",Radio(m),mR
-"01.04.00.00",Radio(cm),cm
-"01.06.00.00",Radio(mm),mm
-"01.08.00.00",Radio(sub-mm),smm
+"01.02.00.00",Radio_m,mR
+"01.04.00.00",Radio_cm,cm
+"01.06.00.00",Radio_mm,mm
+"01.08.00.00",Radio_sub-mm,smm
 "01.11.00.00",HI,HI
 "01.12.00.00",radioBurst,rB
 "01.14.00.00",Maser,Mas
