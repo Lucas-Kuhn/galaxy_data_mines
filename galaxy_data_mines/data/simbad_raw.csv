@@ -125,9 +125,10 @@ id,long_name,tag
 "13.11.00.00",HIshell,sh
 "13.12.00.00",SNR?,SR?
 "13.13.00.00",SNR,SNR
-"13.13.01.00",outflow?,of?
-"13.13.15.00",Outflow,out
-"13.13.16.00",HH,HH
+"13.14.00.00",Circumstellar,cir
+"13.14.01.00",outflow?,of?
+"13.14.15.00",Outflow,out
+"13.14.16.00",HH,HH
 "14.00.00.00",Star,*
 "14.05.00.00",V*?,V*?
 "14.06.00.00",Pec*,Pe*
