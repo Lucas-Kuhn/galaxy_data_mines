@@ -43,7 +43,7 @@ id,long_name,tag
 "10.11.12.03",Candidate_HMXB,HX?
 "10.12.00.00",Candidate_Pec*,Pec?
 "10.12.01.00",Candidate_YSO,Y*?
-"10.12.01.03",Candidate_TTau*,TT?
+"10.12.02.00",Candidate_TTau*,TT?
 "10.12.03.00",Candidate_C*,C*?
 "10.12.04.00",Candidate_S*,S*?
 "10.12.05.00",Candidate_OH,OH?
@@ -152,7 +152,7 @@ id,long_name,tag
 "14.06.18.00",brownD*,BD*
 "14.06.19.00",Neutron*,N*
 "14.06.23.00",OH/IR,OH*
-"14.06.23.03",TTau*,TT*
+"14.06.25.00",TTau*,TT*
 "14.06.30.00",WR*,WR*
 "14.07.00.00",PM*,PM*
 "14.08.00.00",HV*,HV*
