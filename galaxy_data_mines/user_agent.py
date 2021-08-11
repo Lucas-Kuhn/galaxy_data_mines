@@ -316,7 +316,7 @@ def common_option_handler(ctx, dc):
     if ctx.obj["showtable"]:
         dc.combined_table.show_in_browser(jsviewer=True)
     if ctx.obj["savetable"]:
-        dc.saveTable(fileName=filename,
+        dc.saveTable(fileName=working_dir+'/gdm_output'+'/'+objname+'-'+filename,
                      file_format=ctx.obj['savetable'])
 
     # If plot option(s) present.
