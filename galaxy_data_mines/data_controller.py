@@ -770,7 +770,8 @@ class DataController:
 
     def saveTable(self, *, fileName, file_format):
         if file_format == "csv":
-            self.combined_table.write(fileName+".csv",
+            self.combined_table.write(fileName+".csv", 
+                                      overwrite=True, # added
                                       format='ascii.csv',
                                       fast_writer=False)
         elif file_format == "fits":
