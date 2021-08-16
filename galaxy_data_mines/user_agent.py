@@ -58,7 +58,8 @@ def main(ctx, log, glossary,
     dir_exists = False
     if savelog or savetable or saveplot or savestats:
         currentDT = datetime.datetime.now()
-        filename = 'namegdm'
+        #filename = (currentDT.strftime("%Y-%m-%d|%Hhr-%Mm-%Ss")) + "-gdm"
+        filename = '_bycoord-gdm'
         ctx.obj['filename'] = filename
 
         try:
@@ -316,6 +317,7 @@ def common_option_handler(ctx, dc):
     if ctx.obj["showtable"]:
         dc.combined_table.show_in_browser(jsviewer=True)
     if ctx.obj["savetable"]:
+        #dc.saveTable(fileName=working_dir+'/gdm_output'+'/'+objname+'-'+filename,
         dc.saveTable(fileName= objname + filename,
                      file_format=ctx.obj['savetable'])
 
