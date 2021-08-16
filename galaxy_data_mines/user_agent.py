@@ -318,6 +318,7 @@ def common_option_handler(ctx, dc):
         dc.combined_table.show_in_browser(jsviewer=True)
     if ctx.obj["savetable"]:
         #dc.saveTable(fileName=working_dir+'/gdm_output'+'/'+objname+'-'+filename,
+        #dc.saveTable(fileName=os.path.join(working_dir, 'gdm_output', objname, filename),
         dc.saveTable(fileName= objname + filename,
                      file_format=ctx.obj['savetable'])
 
