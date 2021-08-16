@@ -60,6 +60,7 @@ def main(ctx, log, glossary,
         currentDT = datetime.datetime.now()
         filename = (currentDT.strftime("%Y-%m-%d|%Hhr-%Mm-%Ss")) + "-gdm"
         ctx.obj['filename'] = filename
+        filename2 = 'objname' # added
 
         try:
             # Succeeds even if directory exists.
@@ -316,7 +317,7 @@ def common_option_handler(ctx, dc):
     if ctx.obj["showtable"]:
         dc.combined_table.show_in_browser(jsviewer=True)
     if ctx.obj["savetable"]:
-        dc.saveTable(fileName=filename,
+        dc.saveTable(fileName=filename2,
                      file_format=ctx.obj['savetable'])
 
     # If plot option(s) present.
